@@ -1,0 +1,17 @@
+html{
+    text-transform: capitalize;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-custom {
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.card:hover{ 
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    transform: translateY(-5);
+}
